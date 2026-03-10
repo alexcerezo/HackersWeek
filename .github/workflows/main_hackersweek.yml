@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - hackersweek
 on:
   push:
     branches:
-      - main
+      - origin/Proyecto-Completo
   workflow_dispatch:
 
 jobs:
