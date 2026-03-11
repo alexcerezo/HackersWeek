@@ -26,3 +26,5 @@ var app = builder.Build();
 
 
 app.MapGet("/", () => "URL SHORTENER");
+
+app.Run();
